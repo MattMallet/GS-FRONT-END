@@ -1,0 +1,121 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.fundo-claro {
+    background-color: #f9f9f9;
+}
+
+.texto-escuro {
+    color: #333;
+}
+
+.cabecalho {
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.conteiner {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.secao {
+    padding: 40px 0;
+}
+
+.titulo-principal, .titulo-secao {
+    text-align: center;
+}
+
+.fundo-cinza {
+    background-color: #e9ecef;
+}
+
+/* .imagem {
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+} */
+.carrossel {
+    position: relative;
+    overflow: hidden;
+    width: 150%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.7s ease-in-out;
+    width: 170%;
+}
+
+.slides img {
+    width: 50%;
+    flex-shrink: 0;
+    display: block;
+    margin: 20px auto;
+}
+
+.lista-dicas, .lista-itens {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.dica {
+    background-color: #d8f3dc;
+    padding: 15px;
+    border-radius: 5px;
+    flex: 1 1 300px;
+    text-align: center;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.campo {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.botao {
+    background-color: #2d6a4f;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.rodape {
+    background-color: #2d6a4f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
