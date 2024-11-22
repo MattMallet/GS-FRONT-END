@@ -1,4 +1,4 @@
-# GS-FRONT-END
+# GS-FRONT-END feito por Mateus Mallet e Renan Urtado
 # 🌱 Eficiência Energética
 
 ## 📋 Descrição
