@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aprenda sobre eficiência energética, consumo consciente e tecnologias sustentáveis.">
+    <title>Eficiência Energética</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body class="fundo-claro texto-escuro">
+
+    <header class="cabecalho">
+        <div class="conteiner">
+            <h1 class="titulo-principal">Eficiência Energética</h1>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#introducao">Introdução</a></li>
+                    <li><a href="#maiores-consumidores">Maiores Consumidores</a></li>
+                    <li><a href="#dicas">Dicas</a></li>
+                    <li><a href="#green-it">Green IT</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="introducao" class="secao">
+        <div class="conteiner">
+            <h2 class="titulo-secao">Por que a Eficiência Energética é Importante?</h2>
+            <p>A eficiência energética é fundamental para reduzir o consumo de energia sem comprometer a qualidade de vida ou o desempenho dos equipamentos. Além de gerar economia direta nas contas, ela ajuda a preservar os recursos naturais e diminuir os impactos ambientais, como a emissão de gases de efeito estufa. Adotar práticas conscientes, como o uso de tecnologias sustentáveis, otimização de aparelhos e eliminação de desperdícios, é uma maneira simples e poderosa de contribuir para a sustentabilidade, garantindo um futuro mais equilibrado e saudável para todos.</p>
+            <div class="carrossel"></div>
+                <div class="slides">
+                    <img src="./infográfico-do-consumo-de-energia-por-fonte-não-renovável-como-gás-petróleo-nuclear-fontes-renováveis-hidroelétrica-solar-240633876.webp" alt="Imagem 1">
+                    <img src="./eficiencia.jpeg" alt="Imagem 2">
+                    <img src="./flyer.jpeg" alt="Imagem 3">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="maiores-consumidores" class="secao fundo-cinza">
+        <div class="conteiner">
+            <h2 class="titulo-secao">Maiores Consumidores de Energia</h2>
+            <canvas id="grafico-consumo" class="grafico"></canvas>
+        </div>
+    </section>
+
+    <section id="dicas" class="secao">
+        <div class="conteiner">
+            <h2 class="titulo-secao">Dicas Práticas de Economia de Energia</h2>
+            <ul class="lista-dicas">
+                <li class="dica">Utilize lâmpadas LED.</li>
+                <li class="dica">Desligue aparelhos da tomada quando não estiverem em uso.</li>
+                <li class="dica">Otimize o uso de eletrodomésticos.</li>
+                <li class="dica">Aproveite a iluminação natural.</li>
+                <li class="dica">Ajuste o termostato de ar-condicionado e aquecedores.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="green-it" class="secao fundo-cinza">
+        <div class="conteiner">
+            <h2 class="titulo-secao">Green IT e Tecnologias Sustentáveis</h2>
+            <p>Explore ferramentas e soluções inovadoras para reduzir o impacto ambiental:</p>
+            <ul class="lista-itens">
+                <li>Data centers eficientes.</li>
+                <li>Softwares para monitoramento de consumo energético.</li>
+                <li>IoT para casas inteligentes.</li>
+                <li>Fontes de energia renovável.</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="contato" class="secao">
+        <div class="conteiner">
+            <h2 class="titulo-secao">Fale Conosco</h2>
+            <form id="form-contato" class="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="campo" required>
+                <label for="email">E-mail</label>
+                <input type="email" id="email" class="campo" required>
+                <label for="mensagem">Mensagem</label>
+                <textarea id="mensagem" class="campo" required></textarea>
+                <button type="submit" class="botao">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="rodape">
+        <div class="conteiner">
+            <p>&copy; 2024 - Eficiência Energética. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
